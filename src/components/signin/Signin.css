@@ -1,0 +1,304 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.sign-in-con {
+  width: 1440px;
+  height: 736px;
+  margin: 0 auto;
+  background: #0c8281;
+}
+/* Section1 */
+
+form {
+  width: 500px;
+  height: 518px;
+  position: absolute;
+  top: 109px;
+  left: 100px;
+  border-radius: 24px;
+  padding-top: 40px;
+  padding-right: 24px;
+  padding-bottom: 40px;
+  padding-left: 24px;
+  display: flex;
+  flex-direction: column;
+  gap: 24px;
+  background: #ffffff;
+}
+
+.sign-in {
+  width: 452px;
+  height: 438px;
+  display: flex;
+  flex-direction: column;
+  gap: 40px;
+}
+
+.header {
+  width: 265px;
+  height: 68px;
+  display: flex;
+  flex-direction: column;
+  gap: 24px;
+}
+
+.header h2 {
+  width: 205px;
+  height: 44px;
+  font-family: Avenir;
+  font-weight: 900;
+  font-style: Black;
+  font-size: 28px;
+  line-height: 44px;
+  letter-spacing: 0%;
+  text-align: center;
+  color: #0f1036;
+}
+
+.header .deials {
+  width: 265px;
+  height: 24px;
+  display: flex;
+  gap: 4px;
+}
+
+.deials .p-1 {
+  width: 204px;
+  height: 24px;
+  font-family: Avenir;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 24px;
+  letter-spacing: 0%;
+  color: #585a63;
+}
+
+.deials .p-2 {
+  width: 57px;
+  height: 24px;
+  font-family: Avenir;
+  font-weight: 800;
+  font-style: Heavy;
+  font-size: 16px;
+  line-height: 24px;
+  letter-spacing: 0%;
+  color: #0c8281;
+}
+
+.form-in {
+  width: 452px;
+  height: 240px;
+  display: flex;
+  flex-direction: column;
+  gap: 16px;
+}
+
+.fill {
+  width: 452px;
+  height: 200px;
+  display: flex;
+  flex-direction: column;
+  gap: 24px;
+}
+
+.sign-up-email,
+.sign-up-password {
+  width: 452px;
+  height: 88px;
+  display: flex;
+  flex-direction: column;
+  gap: 8px;
+}
+
+.sign-up-email p {
+  width: 40px;
+  height: 24px;
+  font-family: Avenir;
+  font-weight: 500;
+  font-style: Medium;
+  font-size: 16px;
+  line-height: 24px;
+  letter-spacing: 0%;
+  color: #0f1036;
+}
+
+.sign-up-email input {
+  width: 452px;
+  height: 56px;
+  display: flex;
+  justify-content: space-between;
+  border-radius: 4px;
+  padding-top: 10px;
+  padding-right: 14px;
+  padding-bottom: 10px;
+  padding-left: 14px;
+  border-width: 0.2px;
+}
+
+.sign-up-password p {
+  width: 40px;
+  height: 24px;
+  font-family: Avenir;
+  font-weight: 500;
+  font-style: Medium;
+  font-size: 16px;
+  line-height: 24px;
+  letter-spacing: 0%;
+  color: #0f1036;
+}
+
+.sign-up-password .input {
+  width: 452px;
+  height: 56px;
+  display: flex;
+  justify-content: space-between;
+  border-radius: 4px;
+  align-items: center;
+  border: 1px solid black;
+  padding-top: 10px;
+  padding-right: 14px;
+  padding-bottom: 10px;
+  padding-left: 14px;
+}
+
+.input input {
+  display: flex;
+  justify-content: space-between;
+  border-width: 0.2px;
+  outline: none;
+  border: none;
+}
+
+.input img {
+  width: 20px;
+  height: 20px;
+}
+
+.remeer {
+  width: 452px;
+  height: 24px;
+  display: flex;
+  justify-content: space-between;
+}
+
+.remeer .div-1 {
+  width: 137px;
+  height: 24px;
+  display: flex;
+  gap: 8px;
+}
+
+.div-1 input {
+  width: 24px;
+  height: 24px;
+}
+
+.div-1 p {
+  width: 105px;
+  height: 24px;
+  font-family: Avenir;
+  font-weight: 500;
+  font-style: Medium;
+  font-size: 16px;
+  line-height: 150%;
+  letter-spacing: -2%;
+  color: #3f4247;
+}
+
+.remeer .forgot-password {
+  width: 127px;
+  height: 24px;
+  font-family: Avenir;
+  font-weight: 500;
+  font-style: Medium;
+  font-size: 16px;
+  line-height: 150%;
+  letter-spacing: -2%;
+  color: #ff6f61;
+}
+
+button {
+  width: 452px;
+  height: 50px;
+  border-radius: 8px;
+  background: #0c8281;
+  color: #ffffff;
+}
+/* Section 1 end */
+
+/* Section 2 */
+.animation {
+  width: 590px;
+  height: 188px;
+  position: absolute;
+  top: 244px;
+  left: 720px;
+  display: flex;
+  gap: 6px;
+}
+
+.slider {
+  width: 44px;
+  height: 188px;
+  display: flex;
+  gap: 35px;
+  padding: 20px;
+}
+
+.slider-1 {
+  width: 40px;
+  height: 148px;
+  border-radius: 8px;
+  background-color: #ffffff;
+}
+
+.slider-2 {
+  width: 4px;
+  height: 20px;
+  border-radius: 8px;
+  background-color: #ffffff;
+  opacity: 40%;
+}
+
+.slider-3 {
+  width: 20px;
+  height: 4px;
+  border-radius: 8px;
+  background-color: #ffffff;
+  opacity: 40%;
+}
+
+.content {
+  width: 540px;
+  height: 180px;
+  display: flex;
+  flex-direction: column;
+  gap: 8px;
+}
+
+.content h2 {
+  width: 277px;
+  height: 96px;
+  font-family: Avenir;
+  font-weight: 900;
+  font-style: Black;
+  font-size: 36px;
+  line-height: 132%;
+  letter-spacing: 2%;
+  color: #ffffff;
+}
+
+.content p {
+  width: 500px;
+  height: 48px;
+  font-family: Avenir;
+  font-weight: 500;
+  font-style: Medium;
+  font-size: 16px;
+  line-height: 150%;
+  letter-spacing: 1%;
+  color: #ffffff;
+}
