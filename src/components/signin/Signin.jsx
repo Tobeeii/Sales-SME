@@ -1,5 +1,6 @@
 import "./Signin.css";
 import Showpassword from "../../assets/show password.png";
+import { Link } from "react-router-dom";
 
 const Signin = () => {
   return (
@@ -38,7 +39,7 @@ const Signin = () => {
             </div>
           </div>
 
-          <button type="submit">Sign in</button>
+          <Link to="mainpage"><button type="submit">Sign in</button></Link>
         </div>
       </form>
       {/* Section 1 end */}

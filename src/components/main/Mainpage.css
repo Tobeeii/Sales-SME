@@ -1,0 +1,164 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.main-container {
+  width: 1440px;
+  margin: 0 auto;
+}
+
+/* header */
+header {
+  width: 1180px;
+  height: 132px;
+  position: absolute;
+  left: 260px;
+  display: flex;
+  flex-direction: column;
+  border-bottom-width: 1px;
+  background: #ffffff;
+}
+
+.search-bar {
+  width: 1180px;
+  height: 68px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding-top: 12px;
+  padding-right: 32px;
+  padding-bottom: 8px;
+  padding-left: 24px;
+}
+
+.search {
+  width: 194px;
+  height: 44px;
+  display: flex;
+  gap: 4px;
+  border-radius: 8px;
+  padding: 12px;
+  background: #f3f9f9;
+}
+
+.search input {
+  width: 100%;
+  border: none;
+  outline: none;
+  color: #b4b4b9;
+  font-family: Avenir;
+  font-weight: 400;
+  font-style: Oblique;
+  font-size: 14px;
+  line-height: 100%;
+  letter-spacing: 1%;
+  text-align: center;
+}
+
+.icon {
+  width: 184px;
+  height: 40px;
+  display: flex;
+  gap: 8px;
+}
+
+.icon img {
+  width: 24px;
+  height: 24px;
+}
+
+.ellipse {
+  width: 36px;
+  height: 36px;
+}
+
+.dashboard {
+  width: 1180px;
+  height: 64px;
+  padding-top: 8px;
+  padding-right: 32px;
+  padding-bottom: 16px;
+  padding-left: 24px;
+}
+
+.dashboard h1 {
+  width: 121px;
+  height: 33px;
+  font-family: Avenir;
+  font-weight: 800;
+  font-style: Heavy;
+  font-size: 24px;
+  line-height: 100%;
+  letter-spacing: -1%;
+}
+/* header */
+
+/* aside */
+aside {
+  width: 260px;
+  height: 735.71px;
+  border-right-width: 0.3px;
+  gap: 10px;
+  padding-top: 40px;
+  padding-bottom: 40px;
+  background: #0c8281;
+  z-index: 1;
+  color: #d0d0d0;
+}
+
+aside .content {
+  width: 260px;
+  height: 655px;
+  display: flex;
+  flex-direction: column;
+  gap: 40px;
+}
+
+.content .img {
+  width: 260px;
+  height: 27.71px;
+  gap: 10px;
+  padding-right: 24px;
+  padding-left: 24px;
+}
+
+.content .img img {
+  width: 160px;
+  height: 27.71px;
+}
+
+.content-body {
+  width: 260px;
+  height: 504px;
+  padding-right: 16px;
+  padding-left: 16px;
+}
+
+.side-bars {
+  width: 228px;
+  height: 48px;
+  display: flex;
+  gap: 18px;
+  padding-top: 16px;
+  padding-right: 24px;
+  padding-bottom: 16px;
+  padding-left: 24px;
+  border-radius: 8px;
+}
+
+.dashboard {
+  background: #ffffff;
+}
+.dashboard p {
+  color: #0c8281;
+}
+
+.side-bars img {
+  width: 22px;
+  height: 22px;
+}
+/* aside */
+
+/* main */
