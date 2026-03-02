@@ -1,6 +1,6 @@
 import Signin from "./components/signin/Signin"
 import { Routes, Route } from "react-router-dom"
-import Mainpage from "../../new-pro/src/components/main/Mainpage"
+import Mainpage from "./components/main/Mainpage"
 
 const App = () => {
   return (
