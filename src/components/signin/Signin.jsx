@@ -3,6 +3,7 @@ import Showpassword from "../../assets/show password.png";
 import { Link } from "react-router-dom";
 
 const Signin = () => {
+
   return (
     <div className="sign-in-con">
       {/* Section 1 */}
@@ -39,7 +40,9 @@ const Signin = () => {
             </div>
           </div>
 
-          <Link to="mainpage"><button type="submit">Sign in</button></Link>
+          <Link to="mainpage"><button type="submit">Sign in
+            <div className="spinner"></div>
+            </button></Link>
         </div>
       </form>
       {/* Section 1 end */}
@@ -51,10 +54,23 @@ const Signin = () => {
             <div className="slider-2"></div>
             <div className="slider-3"></div>
         </div>
-        <div className="content">
-            <h2>Bring Your Business Online</h2>
+        <div className="contents">
+          <div className="slides">
+            <div className="content text">
+            <h2 className="h2">Bring Your Business Online</h2>
             <p>Create a Salesunbox account and set up an online store for your business with very little effort</p>
         </div>
+        <div className="content text">
+            <h2>Keep Records and View Analytics</h2>
+            <p>Track the progress of your online business using real time statistics recorded in the app</p>
+        </div>
+        <div className="content text">
+            <h2>Communicate With Your Customers</h2>
+            <p>Send emails and messages to your customers and let them know what you have in store for them</p>
+        </div>
+          </div>
+        </div>
+        
       </div>
     </div>
   );
